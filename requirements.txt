@@ -1,4 +1,4 @@
-
+snscrape
 gunicorn
 pandas
 dash-tools
