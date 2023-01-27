@@ -1,4 +1,4 @@
-snscrape
+snscrape==0.3.0
 gunicorn
 pandas
 jupyter_dash
