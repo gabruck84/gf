@@ -1,5 +1,4 @@
 snscrape
-snscrape.modules.twitter
 gunicorn
 pandas
 jupyter_dash
