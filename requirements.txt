@@ -1,4 +1,4 @@
-snscrape==0.3.0
+snscrape twitter
 gunicorn
 pandas
 jupyter_dash
