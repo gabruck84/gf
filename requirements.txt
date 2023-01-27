@@ -2,3 +2,9 @@ snscrape
 gunicorn
 pandas
 dash-tools
+numpy
+re
+jupyter_dash
+dash
+json
+plotly
