@@ -5,5 +5,4 @@ dash-tools
 numpy
 jupyter_dash
 dash
-json
 plotly
