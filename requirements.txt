@@ -1,4 +1,5 @@
 snscrape
+snscrape --user --upgrade
 gunicorn
 pandas
 jupyter_dash
