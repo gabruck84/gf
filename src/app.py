@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 from jupyter_dash import JupyterDash
 from dash import Dash, dcc, html, Input, Output, State, dash_table
-import json
 import plotly.graph_objs as go
 
 
