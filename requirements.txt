@@ -1,5 +1,6 @@
 snscrape
 regex
+re2
 lxml
 gunicorn
 pandas
