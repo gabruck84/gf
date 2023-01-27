@@ -1,8 +1,7 @@
 snscrape
+snscrape.modules.twitter
 gunicorn
 pandas
-dash-tools
-numpy
 jupyter_dash
 dash
 plotly
