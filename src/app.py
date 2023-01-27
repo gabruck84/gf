@@ -7,7 +7,6 @@
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import numpy as np
-import re
 from jupyter_dash import JupyterDash
 from dash import Dash, dcc, html, Input, Output, State, dash_table
 import json
