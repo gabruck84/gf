@@ -1,5 +1,5 @@
 git+https://github.com/JustAnotherArchivist/snscrape.git
-libxml2-python3
+lxml
 gunicorn
 pandas
 jupyter_dash
