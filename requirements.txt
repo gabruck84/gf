@@ -11,3 +11,4 @@ matplotlib
 networkx
 python-time
 numpy
+dash-bootstrap-components
