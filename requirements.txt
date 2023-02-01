@@ -9,5 +9,5 @@ plotly
 pyvis
 matplotlib
 networkx
-time
+python-time
 numpy
