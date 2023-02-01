@@ -16,7 +16,7 @@ server = app.server
 
 card1 = dbc.Card(
     [
-        dbc.CardImg(src="icone_perfil.png",  style={"width": "20vh", 'margin':'15px'}, top=True),
+        dbc.CardImg(src="https://github.com/gabruck84/gf/blob/main/src/icone_perfil.png",  style={"width": "20vh", 'margin':'15px'}, top=True),
         dbc.CardBody(
             [
                 html.H4("Redes Sociais", className="card-title"),
