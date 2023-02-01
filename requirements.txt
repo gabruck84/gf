@@ -6,3 +6,8 @@ pandas
 jupyter_dash
 dash
 plotly
+pyvis
+matplotlib
+networkx
+time
+numpy
