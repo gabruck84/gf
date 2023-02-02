@@ -16,7 +16,7 @@ server = app.server
 
 card1 = dbc.Card(
     [
-        dbc.CardImg(src="https://raw.githubusercontent.com/gabruck84/gf/main/src/icone_perfil.png",  style={"width": "20vh", 'margin':'15px'}, top=True),
+        dbc.CardImg(src="https://raw.githubusercontent.com/gabruck84/gf/main/src/icone_perfil.png",  style={"width": "25vh", 'margin':'15px'}, top=True),
         dbc.CardBody(
             [
                 html.H4("Redes Sociais", className="card-title"),
@@ -87,10 +87,10 @@ card2 = dbc.Card(
 
 row = html.Div( dbc.Row(
             [
-                dbc.Col(html.Div(card1),width=4),
+                dbc.Col(html.Div(card1),sm=4,md=3,lg=2),
         
                 dbc.Col(html.Div((card2)
-       ),width=8),
+       ),sm=8,md=9,lg=10),
             ]
         ),
     
