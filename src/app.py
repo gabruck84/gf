@@ -105,8 +105,7 @@ app.layout = html.Div(row)
 
 
 
-
-@app.long_callback(
+@app.callback(
     Output("loading-output", "children"),
     Output('computed-table', 'data'),
     Output('computed-table', 'columns'),
@@ -184,7 +183,7 @@ def update_output(n_clicks,a,b):
     
     
     
-@app.long_callback(
+@app.callback(
     Output("download-dataframe-csv", "data"),
     Input("btn_csv", "n_clicks"),
     State('computed-table', 'data'),
@@ -196,7 +195,7 @@ def func(n_clicks,data):
     return dcc.send_data_frame(V.to_excel, "arquivo.xlsx")
 
 
-@app.long_callback(
+@app.callback(
     Output("redegephi", "data"),
     Input("rede", "n_clicks"),
     State('computed-table', 'data'),
