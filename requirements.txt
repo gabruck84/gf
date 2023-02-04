@@ -1,4 +1,5 @@
 snscrape
+wheel
 regex
 lxml
 gunicorn
@@ -15,4 +16,4 @@ numpy
 dash-bootstrap-components
 openpyxl
 spicy
-wheel
+
