@@ -12,7 +12,7 @@ import time
 
 app = JupyterDash(__name__,  external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-
+app.title = 'Twitter Scraper - Graphus'
 
 card1 = dbc.Card(
     [
