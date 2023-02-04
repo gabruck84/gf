@@ -7,7 +7,7 @@ jupyter_dash
 dash
 plotly
 pyvis
-setup.py
+python setup.py
 matplotlib
 networkx[all]
 networkx[default]
