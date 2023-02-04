@@ -10,7 +10,7 @@ plotly
 pyvis
 pyvis-network
 matplotlib
-networkx[default]
+networkx[all]
 python-time
 numpy
 dash-bootstrap-components
