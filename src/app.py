@@ -16,7 +16,7 @@ app.title = 'Twitter Scraper - Graphus'
 
 card1 = dbc.Card(
     [
-        dbc.CardImg(src="https://raw.githubusercontent.com/gabruck84/gf/main/src/icone_perfil.png",  style={"width": "25vh", 'margin':'15px'}, top=True),
+        dbc.CardImg(src="https://raw.githubusercontent.com/gabruck84/gf/main/src/icone_perfil.png",  style={"width": "20vh"}, top=True),
         dbc.CardBody(
             [
                 html.H4("Redes Sociais", className="card-title"),
@@ -38,7 +38,7 @@ card1 = dbc.Card(
                 
             ]
         ),
-    ], style={'height':'100vh'}
+    ], style={'height':'70vh'}
    
 )
 
