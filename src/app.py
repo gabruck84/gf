@@ -53,7 +53,7 @@ card1 = dbc.Card(
 
 card2 = dbc.Card(
     dbc.CardBody(
-        [ html.Embed(src='/assets/info.html'),
+        [
             html.H4("Tabela de dados", className="card-title"),
             html.H6(["Usuários únicos: ",html.Div(id='userunico')]),
             html.H6(["Reply: ",html.Div(id='reply')]),
@@ -81,7 +81,7 @@ card2 = dbc.Card(
              dbc.Button('Download Rede', id='rede', n_clicks=0),  dcc.Download(id="redegephi")
             
             
-        ], style={'height':'100vh'}
+        ], style={'height':'80vh'}
     ),  
 )
 
@@ -96,7 +96,7 @@ row = html.Div( dbc.Row(
                 dbc.Col(html.Div(card1),sm=4,md=3,lg=2),
         
                 dbc.Col(html.Div((card2)
-       ),sm=8,md=9,lg=10),
+       ),sm=8,md=9,lg=10),  dbc.Row(html.Div(html.Embed(src='/assets/info.html'))),
             ]
         ),
     
