@@ -91,22 +91,15 @@ card2 = dbc.Card(
 
 
 
-row = html.Div( dbc.Row(
-            [
+row = html.Div([ 
+        dbc.Row([
                 dbc.Col(html.Div(card1),sm=4,md=3,lg=2),
         
-                dbc.Col(html.Div((card2)
-       ),sm=8,md=9,lg=10),  
-            ]     
+                dbc.Col(
+            [dbc.Row((html.Div((card2)),html.Div(html.Embed(src='/assets/info.html')
+                                                )))]
         ),
-               
-          dbc.Row([dbc.Col(html.Div(),sm=4,md=3,lg=2),
-            dbc.Col(html.Div(html.Embed(src='/assets/info.html'))),sm=8,md=9,lg=10 ])
-               
-    
-)
-
-
+        ])])
 
     
 app.layout = html.Div(row)
