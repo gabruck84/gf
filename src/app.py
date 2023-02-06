@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 import time 
 
 app = JupyterDash(__name__,  external_stylesheets=[dbc.themes.BOOTSTRAP],
-meta_tags=[{'monetag': '5673368dfbc51e0d5d1cda3dd08e2e9d'}]
-                  ])
+meta_tags=[{'monetag': '5673368dfbc51e0d5d1cda3dd08e2e9d'}])
+            
 server = app.server
 
 
