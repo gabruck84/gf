@@ -101,7 +101,7 @@ row = html.Div( dbc.Row(
         ),
                
           dbc.Row([dbc.Col(html.Div(),sm=4,md=3,lg=2),
-            dbc.Col(html.Div(html.Embed(src='/assets/info.html'))),sm=8,md=9,lg=10 )])
+            dbc.Col(html.Div(html.Embed(src='/assets/info.html'))),sm=8,md=9,lg=10 )]))
                
     
 )
