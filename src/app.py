@@ -53,7 +53,7 @@ card1 = dbc.Card(
 
 card2 = dbc.Card(
     dbc.CardBody(
-        [
+        [ html.Embed(src='/assets/info.html'),
             html.H4("Tabela de dados", className="card-title"),
             html.H6(["Usuários únicos: ",html.Div(id='userunico')]),
             html.H6(["Reply: ",html.Div(id='reply')]),
