@@ -55,7 +55,7 @@ card2 = dbc.Card(
             html.H6(["Original: ",html.Div(id='original')]),
             html.H6(["Retweet: ",html.Div(id='retweet')]),
               html.H6(["Progresso: ",html.Div(id='aguarde')]),
-          html.Embed(id='embed', src='https://github.com/gabruck84/gf/blob/main/src/5673368dfbc51e0d5d1cda3dd08e2e9d.html'),
+        
 
 
            
