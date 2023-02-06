@@ -97,7 +97,7 @@ row = html.Div([
         
                 dbc.Col(
             [dbc.Row((html.Div((card2)),html.Div(html.Embed(src='/assets/info.html')
-                                                )))]
+                                                )))],sm=8,md=9,lg=10
         ),
         ])])
 
