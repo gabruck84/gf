@@ -96,9 +96,13 @@ row = html.Div( dbc.Row(
                 dbc.Col(html.Div(card1),sm=4,md=3,lg=2),
         
                 dbc.Col(html.Div((card2)
-       ),sm=8,md=9,lg=10),  dbc.Row(html.Div(html.Embed(src='/assets/info.html'))),
-            ]
+       ),sm=8,md=9,lg=10),  
+            ]     
         ),
+               
+          dbc.Row([dbc.Col(html.Div(),sm=4,md=3,lg=2),
+            dbc.Col(html.Div(html.Embed(src='/assets/info.html'))),sm=8,md=9,lg=10 )])
+               
     
 )
 
